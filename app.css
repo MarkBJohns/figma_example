@@ -1,0 +1,320 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 19.4rem; /* Room for the fixed header */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Navbar settings --------------------------- */
+
+#header-logo {
+    position: fixed;;
+    justify-content: center;
+    left: 2rem;
+    height: 6.9rem;
+    width: 12rem;
+}
+
+#navbar {
+    top: 0;
+    height: 9.4rem;
+    width: 100%;
+    background-color: #0A1451;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+#navbar a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+}
+
+#nav-phone {
+    margin-left: 2rem;
+    width: 4.2rem;
+    height: 4rem;
+}
+
+#contact-us {
+    border: 1px solid white;
+    padding: .3rem 2rem;
+    border-radius: 25% / 100%;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+/* Auto upholstery settings------------------- */
+
+#auto-header {
+    margin: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#auto-header h1 {
+   margin: 0;
+   line-height: 1;
+}
+
+#auto-header .title-light {
+    font-size: 9rem;
+    font-weight: 275;
+}
+
+#auto-header .title-bold {
+    font-size: 7.5rem;
+    font-weight: 700;
+}
+
+#auto-header p {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#auto-header button {
+    height: 5.3rem;
+    width: 22.9rem;
+    background-color: #0A1451;
+    color: white;
+    border: none;
+    font: inherit;
+    font-weight: 500;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#auto-header img {
+    border: 1px solid black;
+    height: 50.7rem;
+    width: 54.7rem;
+}
+
+/* Leather vinyl seats------------------------ */
+
+#leather-vinyl {
+    background-color: #f5f5f5;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86.2rem;
+}
+
+#leather-vinyl .leather-vinyl-big-img {
+    margin-left: 10rem;
+    border: 1px solid black;
+    height: 55.5rem;
+    width: 49.3rem;
+}
+
+#leather-vinyl-content {
+    margin-left: 10rem;
+    margin-right: 20rem;
+}
+
+#leather-vinyl-content h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#leather-vinyl-content p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#leather-vinyl-content .leather-vinyl-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leather-vinyl-content .leather-vinyl-small-img {
+    border: 1px solid black;
+    height: 22.2rem;
+    width: 16.6rem;
+}
+
+/* Headliners--------------------------------- */
+
+#headliners {
+    background-color: #ffffff;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86.2rem;
+}
+
+#headliners .headliners-big-img {
+    margin-right: 10rem;
+    border: 1px solid black;
+    height: 51.4rem;
+    width: 45.7rem;
+}
+
+#headliners-content {
+    margin-left: 10rem;
+    margin-right: 20rem;
+}
+
+#headliners-content h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#headliners-content p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#headliners-content .headliners-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headliners-content .headliners-small-img {
+    border: 1px solid black;
+    height: 22.2rem;
+    width: 16.6rem;
+}
+
+/* Custom auto upholstery--------------------- */
+
+#custom-auto-upholstery {
+    background-color: #f5f5f5;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86.2rem;
+}
+
+#custom-auto-upholstery .custom-auto-upholstery-big-img {
+    margin-left: 10rem;
+    border: 1px solid black;
+    height: 51rem;
+    width: 48.8rem;
+}
+
+#custom-auto-upholstery-content {
+    margin-left: 10rem;
+    margin-right: 20rem;
+}
+
+#custom-auto-upholstery-content h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#custom-auto-upholstery-content p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#custom-auto-upholstery-content .custom-auto-upholstery-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#custom-auto-upholstery-content .custom-auto-upholstery-small-img {
+    border: 1px solid black;
+    height: 22.2rem;
+    width: 16.6rem;
+}
+
+/* Footer------------------------------------- */
+
+footer {
+    background-color: #0A1451;
+    color: white;
+    height: 69.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#footer-columns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+}
+
+#footer-columns h3 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+#footer-columns p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#footer-columns a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1.5rem;
+}
+
+#footer-columns table {
+    font-size: 2rem;
+    font-weight: 400;
+    border-spacing: 0 1.5rem;
+}
+
+#footer-columns table td {
+    padding: 0;
+}
+
+#footer-columns table td:nth-child(2) {
+    padding-left: 5rem;
+}
+
+#footer-logo-block img {
+    height: 8.6rem;
+    width: 15rem;
+}
+
+#footer-location-block, #footer-phone-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#footer-location-block img {
+    height: 3.555rem;
+    width: 3.251rem;
+}
+
+#footer-phone-block img {
+    height: 3.16rem;
+    width: 2.89rem;
+}
+
+#quick-links-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
